@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>flipkart</title>
+     <!-- Preconnect to Google's font services for faster loading -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Link to Google Fonts - Poppins and Material Symbols -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"rel="stylesheet"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
+    <link rel="stylesheet" href="flipkart.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo-container">
+          <!-- Link to home page with logo -->
+          <a href="index.html">
+            <img src="./images/logo.png" alt="" class="nav-logo" />
+          </a>
+        </div>
+        <div class="search">
+          <!-- Search bar with material icon -->
+          <span class="material-symbols-outlined search-logo"> search </span>
+          <input
+            type="text"
+            placeholder="Search For Products, Brands and More"
+            class="search-input"
+          />
+        </div>
+        <div class="action-bar">
+          <!-- Action items in the navbar -->
+          <div class="action">
+            <span class="material-symbols-outlined action-logo">
+              account_circle
+            </span>
+            <div class="action-text">Login</div>
+          </div>
+          <a href="cart.html" class="action">
+            <span class="material-symbols-outlined action-logo">
+              shopping_cart
+            </span>
+            <div class="action-text">Cart</div>
+            <div class="cart-icon"></div>
+          </a>
+          <div class="action">
+            <span class="material-symbols-outlined action-logo">
+              storefront
+            </span>
+            <div class="action-text">Become A Seller</div>
+          </div>
+          <span class="material-symbols-outlined"> more_vert </span>
+        </div>
+      </nav>
+    </header>
+    <main class="main-container">
+      <div class="offers">
+        <!-- Offer categories with images and titles -->
+        <div class="offer">
+          <img src="./images/img1.png" alt="" width="64px" heigth="64px" />
+          <div class="offer-title">Top Offers</div>
+        </div>
+        <div class="offer">
+          <img src="./images/img2.png" alt="" width="64px" heigth="64px" />
+          <div class="offer-title">Mobile & Tablets</div>
+        </div>
+        <div class="offer">
+          <img src="./images/img3.png" alt="" width="64px" heigth="64px" />
+          <div class="offer-title">TVs & Appliances</div>
+        </div>
+        <div class="offer">
+          <img src="./images/img4.png" alt="" width="64px" heigth="64px" />
+          <div class="offer-title">Electronics</div>
+        </div>
+        <div class="offer">
+          <img src="./images/img5.png" alt="" width="64px" heigth="64px" />
+          <div class="offer-title">Fashion</div>
+        </div>
+        <div class="offer">
+          <img src="./images/img6.png" alt="" width="64px" heigth="64px" />
+          <div class="offer-title">Beauty</div>
+        </div>
+        <div class="offer">
+          <img src="./images/img7.png" alt="" width="64px" heigth="64px" />
+          <div class="offer-title">Home & Kitchen</div>
+        </div>
+        <div class="offer">
+          <img src="./images/img8.png" alt="" width="64px" heigth="64px" />
+          <div class="offer-title">Furniture</div>
+        </div>
+        <div class="offer">
+          <img src="./images/img9.jpg" alt="" width="64px" heigth="64px" />
+          <div class="offer-title">Travel</div>
+        </div>
+        <div class="offer">
+          <img src="./images/img10.png" alt="" width="64px" heigth="64px" />
+          <div class="offer-title">Grocery</div>
+        </div>
+      </div>
+      <div class="banner">
+        <!-- Banner image -->
+        <img src="./images/hero.jpg" alt="" width="100%" />
+      </div>
+      <div class="sbi">
+        <!-- SBI promotion image -->
+        <img src="./images/sbi.jpg" alt="" width="100%" />
+      </div>
+      <div class="products">
+       <!-- Dynamic product list will be loaded here -->
+      </div>
+      <div class="loadBtn">
+        <!-- Load more button -->
+        <button class="btn">Load Button</button>
+      </div>
+      <div class="topBtn">
+        <!-- Scroll to top button -->
+        <span class="material-symbols-outlined"> arrow_upward </span>
+      </div>
+      <div class="img-container">
+        <!-- Additional images displayed in a container -->
+        <div class="image-box">
+          <img src="images/img1.jpg" alt="" claas="img" width="100%">
+        </div>
+        <div class="image-box">
+          <img src="images/img2.jpg" alt="" claas="img" width="100%">
+        </div>
+        <div class="image-box">
+          <img src="images/img3.jpg" alt="" claas="img" width="100%">
+        </div>
+        <div class="image-box">
+          <img src="images/img4.jpg" alt="" claas="img" width="100%">
+        </div>
+        <div class="image-box">
+          <img src="images/img5.jpg" alt="" claas="img" width="100%">
+        </div>
+        <div class="image-box">
+          <img src="images/img6.jpg" alt="" claas="img" width="100%">
+        </div>
+
+      </div>
+    </main>
+    <footer>
+      <div class="footer_container">
+        <!-- Footer columns with links -->
+          <div class="footer_column">
+            <h4 class="footer_heading">About</h5>
+            <a href="#" class="footer_links">Contact Us</a>
+            <a href="#" class="footer_links">About Us</a>
+            <a href="#" class="footer_links">Carrers</a>
+            <a href="#" class="footer_links">Flipcart stories</a>
+            <a href="#" class="footer_links">Press</a>
+            <a href="#" class="footer_links">Corporate Information</a>
+        </div>
+        <div class="footer_column">
+            <h4 class="footer_heading">GROUP COMPAINES</h5>
+            <a href="#" class="footer_links">Myntra</a>
+            <a href="#" class="footer_links">Flipkart Wholesale</a>
+            <a href="#" class="footer_links">ClearTrip</a>
+            <a href="#" class="footer_links">Shopsy</a>
+        </div>
+        <div class="footer_column">
+            <h4 class="footer_heading">HELP</h5>
+            <a href="#" class="footer_links">Payments</a>
+            <a href="#" class="footer_links">Shipping</a>
+            <a href="#" class="footer_links">Cancellation & Returns </a>
+            <a href="#" class="footer_links">FAQ</a>
+            <a href="#" class="footer_links">Refort infrigment</a>
+        </div>
+        <div class="footer_column">
+          <h4 class="footer_heading">CONSUMER POLICY</h5>
+          <a href="#" class="footer_links">Term of use</a>
+          <a href="#" class="footer_links">Security</a>
+          <a href="#" class="footer_links">Privacy  </a>
+          <a href="#" class="footer_links">Sitemap</a>
+          <a href="#" class="footer_links">Grievance Redressal </a>
+          <a href="#" class="footer_links">EPR Compliances</a>
+        </div>
+      </div>
+    </footer>
+    <!-- External JavaScript file -->
+    <script src="index.js" defer></script>
+  </body>
+</html>

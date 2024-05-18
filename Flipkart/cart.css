@@ -1,0 +1,171 @@
+.bag-items-container {
+  display: inline-block; /* Display as inline-block */
+  width: 64%; /* Set width */
+  padding-right: 20px; /* Add padding to the right */
+  border-right: 1px solid #eaeaec; /* Right border */
+  padding-top: 32px; /* Add padding to the top */
+  color: #282c3f; /* Dark text color */
+  font-size: 13px; /* Font size */
+  line-height: 1.42857143; /* Line height */
+}
+
+.bag-page {
+  width: 75%; /* Set width */
+  margin-left: 12.5%; /* Center by adding left margin */
+}
+
+.bag-summary {
+  vertical-align: top; /* Align to the top */
+  display: inline-block; /* Display as inline-block */
+  width: 35%; /* Set width */
+  padding: 24px 0 0 16px; /* Add padding */
+  color: #282c3f; /* Dark text color */
+  font-size: 13px; /* Font size */
+  line-height: 1.42857143; /* Line height */
+}
+
+.bag-details-container {
+  margin-bottom: 16px; /* Add margin bottom */
+}
+
+.price-header {
+  font-size: 12px; /* Font size */
+  font-weight: 700; /* Bold text */
+  margin: 24px 0 16px; /* Add margins */
+  color: #535766; /* Gray color */
+}
+
+.price-item {
+  margin-bottom: 12px; /* Add margin bottom */
+  line-height: 16px; /* Line height */
+  font-size: 14px; /* Font size */
+  color: #282c3f; /* Dark text color */
+}
+
+.price-item-value {
+  float: right; /* Float to the right */
+}
+
+.priceDetail-base-discount {
+  color: #03a685; /* Green color for discount */
+}
+
+.price-footer {
+  font-weight: 700; /* Bold text */
+  font-size: 15px; /* Font size */
+  padding-top: 16px; /* Add padding to the top */
+  border-top: 1px solid #eaeaec; /* Top border */
+  color: #3e4152; /* Dark text color */
+  line-height: 16px; /* Line height */
+}
+
+.btn-place-order {
+  width: 100%; /* Full width */
+  letter-spacing: 1px; /* Letter spacing */
+  font-size: 14px; /* Font size */
+  font-weight: 600; /* Semi-bold text */
+  border-radius: 2px; /* Rounded corners */
+  border-width: 0px; /* Remove border */
+  padding: 10px 16px; /* Add padding */
+  background-color: rgb(255, 63, 108); /* Pink background color */
+  color: rgb(255, 255, 255); /* White text color */
+  cursor: pointer; /* Pointer cursor */
+}
+
+.bag-item-container {
+  margin-bottom: 8px; /* Add margin bottom */
+  background: #fff; /* White background color */
+  font-size: 14px; /* Font size */
+  border: 1px solid #eaeaec; /* Border */
+  border-radius: 4px; /* Rounded corners */
+  position: relative; /* Relative positioning */
+  padding: 12px 12px 0; /* Add padding */
+}
+
+.item-left-part {
+  position: absolute; /* Absolute positioning */
+  background: rgb(255, 242, 223); /* Light yellow background */
+  height: 148px; /* Set height */
+  width: 111px; /* Set width */
+}
+
+.item-right-part {
+  padding-left: 12px; /* Add padding to the left */
+  position: relative; /* Relative positioning */
+  min-height: 148px; /* Minimum height */
+  margin-left: 111px; /* Add left margin */
+  margin-bottom: 12px; /* Add margin bottom */
+}
+
+.bag-item-img {
+  width: 100%; /* Full width */
+}
+
+.return-period {
+  display: inline-flex; /* Display as inline-flex */
+  font-size: 14px; /* Font size */
+  padding-top: 8px; /* Add padding to the top */
+}
+
+.return-period-days {
+  font-weight: 700; /* Bold text */
+  margin-right: 4px; /* Add margin to the right */
+}
+
+.delivery-details {
+  margin-top: 5px; /* Add margin to the top */
+  color: #282c3f; /* Dark text color */
+  font-size: 12px; /* Font size */
+  letter-spacing: -.1px; /* Adjust letter spacing */
+  margin-bottom: 8px; /* Add margin bottom */
+  line-height: 15px; /* Line height */
+}
+
+.delivery-details-days {
+  color: #03a685; /* Green color */
+}
+
+.remove-from-cart {
+  position: absolute; /* Absolute positioning */
+  font-size: 25px; /* Font size */
+  top: 10px; /* Position from top */
+  right: 18px; /* Position from right */
+  cursor: pointer; /* Pointer cursor */
+  padding: 5px 8px; /* Add padding */
+}
+
+/* Responsive styles for screens up to 768px */
+@media screen and (max-width: 768px) {
+  .bag-page {
+    margin: 0 2.5%; /* Adjust margins */
+    width: 95%; /* Adjusted width to accommodate the new margin */
+  }
+  .bag-items-container {
+    width: 64%; /* Set width */
+    padding-top: 20px; /* Adjust padding to the top */
+  }
+  .bag-summary {
+    width: 35%; /* Set width */
+    margin-top: 0px; /* Remove top margin */
+    padding-top: 15px; /* Adjust padding to the top */
+  }
+}
+
+/* Responsive styles for screens up to 768px */
+@media screen and (max-width: 768px) {
+  .bag-page {
+    margin: 0 3%; /* Adjust margins */
+    width: 94%; /* Adjusted width to accommodate the new margin */
+  }
+  .bag-items-container {
+    width: 100%; /* Full width */
+    padding-top: 20px; /* Adjust padding to the top */
+    padding: 0; /* Remove padding */
+    border: none; /* Remove border */
+  }
+  .bag-summary {
+    width: 100%; /* Full width */
+    margin-top: 0px; /* Remove top margin */
+    padding-top: 15px; /* Adjust padding to the top */
+  }
+}
